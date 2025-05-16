@@ -1,0 +1,5 @@
+anthropic>=0.8.0
+openai>=1.0.0
+tqdm>=4.65.0
+json5>=0.9.5
+pathlib>=1.0.1 

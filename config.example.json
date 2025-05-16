@@ -1,0 +1,12 @@
+{
+    "api": {
+        "key": "",
+        "url": "https://api.example.com/v1/evals/reward"
+    },
+    "max_items": 0,
+    "max_retries": 20,
+    "retry_delay": 1,
+    "max_workers": 10,
+    "input_file": "data/input.json",
+    "output_file": "results/evaluation_results.json"
+} 
