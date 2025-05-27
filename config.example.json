@@ -1,12 +1,20 @@
 {
-    "api": {
-        "key": "",
-        "url": "https://api.example.com/v1/evals/reward"
+    "api_keys": {
+        "anthropic": "sk-ant-api03-your-anthropic-key-here",
+        "openai": "sk-proj-your-openai-key-here"
     },
+    "api": {
+        "key": "cp-your-composo-key-here",
+        "url": "https://platform.composo.ai/api/v1/evals/reward"
+    },
+    "model": {
+        "model_name": "gpt-4.1",
+        "anthropic_model": "claude-3-7-sonnet-20250219",
+        "temperature": 0.7,
+        "max_tokens": 2000
+    },
+    "input_file": "data/dataset.json",
     "max_items": 0,
-    "max_retries": 20,
-    "retry_delay": 1,
-    "max_workers": 10,
-    "input_file": "data/input.json",
-    "output_file": "results/evaluation_results.json"
-} 
+    "max_retries": 10,
+    "retry_delay": 2
+}

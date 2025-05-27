@@ -41,9 +41,6 @@ results/
 credentials/
 secrets/
 
-# Data files
-data/
-
 # OS
 .DS_Store
 Thumbs.db 
